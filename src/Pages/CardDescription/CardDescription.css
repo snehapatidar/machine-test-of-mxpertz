@@ -1,0 +1,54 @@
+.gradient-text{
+    color: azure;
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.card_description_btn {
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.links1{
+    background-image: linear-gradient(to right top, #5e43c0, #0078e9, #00a2f7, #00c6f1, #26e6e6);
+    border-radius: 2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 13px 40px;
+}
+.links2{
+    background-color: grey;
+    border-radius: 2rem;
+    padding: 13px 40px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.links3{
+       background-color: #f2f2f2; /* Light grey background color */
+       padding: 13px 40px;
+       border: 2px solid;
+       /* border-image: linear-gradient(to right top, #5e43c0, #0078e9, #00a2f7, #00c6f1, #26e6e6) 1; */
+       border-image-slice: 1;
+       border-radius: 50px;
+       white-space: nowrap;
+       text-decoration: none;
+       cursor: pointer;
+       background-clip: padding-box;
+}
+.image{
+    width: 20rem;
+    margin: 53px 30px ;
+    border-radius: 10px;
+}
+.card_image_container{
+    display: flex;
+}
+.description_container p{
+    color: aliceblue;
+    margin: 50px 30px ;
+    letter-spacing: 0.5px;
+}

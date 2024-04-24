@@ -1,0 +1,25 @@
+.section_container {
+  height: 15rem;
+}
+.section_heading {
+  text-align: center;
+  color: aliceblue;
+  font-size: 2rem;
+}
+.section_button {
+    width: 50rem;
+    margin: 4rem auto;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.button a {
+  padding: 0.8rem;
+  border-radius: 2rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  color: aliceblue;
+  cursor: pointer;
+}

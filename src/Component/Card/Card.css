@@ -1,0 +1,49 @@
+.card {
+    width: 15rem;
+    height: 20rem;
+    border-radius: 1rem;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right top, #5e43c0, #0078e9, #00a2f7, #00c6f1, #26e6e6) 2;
+    margin: 2rem 2.5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+.image_container{
+   /* Set height for the container */
+}
+    .card img{
+        height: 200px;
+        width: 215px;
+        border-radius:1rem;
+        margin: 10px;
+    }
+    .card h2{
+    margin: 0;
+    color: white;
+    }
+    .card p{
+        color: white;
+    
+    }
+    .card_title{
+        color: white;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        margin-left: 10px;
+        
+    }
+    .status{
+        margin-left: 18px;
+       
+    }
+   .status p{
+    color: #0078e9 ;
+    background-color: white;
+    text-align: center;
+    width: 12rem;
+    border-radius: 20px;
+    padding: 0.3rem;
+
+    
+   }
+      
